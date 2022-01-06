@@ -2,8 +2,8 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import styled from '../../styles/Header.module.css'
 import React from 'react'
-import Nav from 'react-bootstrap/Nav'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const Header = () => {
   return (
@@ -13,9 +13,14 @@ export const Header = () => {
           <div className={styled.logo}>
             <Link href="/">
               <a>
-                <img src="logo.png" className={styled.logo_white} />
+              <Image
+      src="me.png"
+      alt="Picture of the author"
+      width={500}
+      height={500}
+    />
               </a>
-            </Link>
+          </Link>
           </div>
         </Navbar.Brand>
       </Container>
