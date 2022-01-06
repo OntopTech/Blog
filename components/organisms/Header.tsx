@@ -4,6 +4,7 @@ import styled from '../../styles/Header.module.css'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Nav } from 'react-bootstrap'
 
 export const Header = () => {
   return (
@@ -13,16 +14,21 @@ export const Header = () => {
           <div className={styled.logo}>
             <Link href="/">
               <a>
-              <Image
-      src="me.png"
-      alt="Picture of the author"
-      width={500}
-      height={500}
-    />
+                <Image
+                  src="/logo.png"
+                  alt="Picture of the author"
+                  width={500}
+                  height={500}
+                />
               </a>
-          </Link>
+            </Link>
           </div>
         </Navbar.Brand>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto mr-auto me-auto">
+            <Nav.Item></Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   )
