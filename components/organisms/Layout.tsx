@@ -1,13 +1,21 @@
+import Head from 'next/head'
 import { ReactNode } from 'react'
 import { Header } from '../molecules/Header'
+import layout from '../../styles/Layout.module.css'
+import { Categorie } from '../molecules/Categorie'
 
 export const Layout = (props: { children: ReactNode }) => {
   return (
     <>
+      <Head>
+        <title>Blog</title>
+      </Head>
       <Header />
-      <div className="container">
+      <Categorie />
+      <section className="container-fluid">
         <main>{props.children}</main>
-      </div>
+      </section>
+      <footer>Abajo</footer>
     </>
   )
 }

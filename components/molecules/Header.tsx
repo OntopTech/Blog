@@ -1,8 +1,6 @@
-import Navbar from 'react-bootstrap/Navbar'
 import header from '../../styles/Header.module.css'
 import React from 'react'
 import Link from 'next/link'
-import { Nav } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebook,
@@ -14,37 +12,65 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 export const Header = () => {
   return (
-    <Navbar
-      expand="lg"
-      className={header.navbar}
-      fixed="top"
-      bg="light"
-      variant="dark"
-    >
+    <div className={`${header.navbar} navbar navbar-expand-lg fixed-top`}>
       <div className="container-fluid">
-        <Navbar.Brand>
-          <div className={header.logo}>
-            <Link href="/">
-              <a>
-                <img src="/logo-dark.png" alt="Picture of the author" />
-              </a>
-            </Link>
-          </div>
-        </Navbar.Brand>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="justify-content-center flex-grow-1 pe-3">
-            <Nav.Item className={header.nav_item}>
-              <Link href="/" passHref>
-                <Nav.Link className={header.nav_link}>
-                  <a>Home</a>
-                </Nav.Link>
+        <div className={header.logo}>
+          <Link href="/">
+            <a>
+              <img src="/logo-dark.png" alt="Picture of the author" />
+            </a>
+          </Link>
+        </div>
+        <div
+          className="justify-content-center flex-grow-1 pe-3 collapse navbar-collapse"
+          id="main_nav"
+        >
+          <ul className=" navbar-nav ml-auto mr-auto">
+            <li className={`${header.nav_item} nav-item dropdown`}>
+              <Link href="/">
+                <a
+                  className={`${header.nav_link} nav-link dropdown-toggle active`}
+                  data-toggle="dropdown"
+                >
+                  Home
+                </a>
               </Link>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
-        <Nav className={`${header.navbar_right} me-auto`}>
+              <ul
+                className={`${header.dropdown_menu} ${header.fade_up} dropdown-menu fade-up`}
+              >
+                <li>
+                  <a
+                    className={`${header.dropdown_item} dropdown-item`}
+                    href="index.html"
+                  >
+                    Demo 1
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className={`${header.dropdown_item} dropdown-item`}
+                    href="index.html"
+                  >
+                    Demo 1
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className={`${header.dropdown_item} dropdown-item`}
+                    href="index.html"
+                  >
+                    Demo 1
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div
+          className={`${header.navbar_right} ml-auto d-flex flex-row bd-highlight`}
+        >
           <div className={header.social_icones}>
-            <ul className="d-flex flex-row-reverse bd-highlight">
+            <ul className="list-inline">
               <li className="p-2 bd-highlight">
                 <Link href="/">
                   <a>
@@ -88,8 +114,8 @@ export const Header = () => {
               <FontAwesomeIcon icon={faSearch} />
             </i>
           </div>
-        </Nav>
+        </div>
       </div>
-    </Navbar>
+    </div>
   )
 }
