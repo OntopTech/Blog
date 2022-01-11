@@ -9,6 +9,7 @@ import {
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import Image from 'next/image'
 
 export const Header = () => {
   return (
@@ -17,7 +18,13 @@ export const Header = () => {
         <div className={header.logo}>
           <Link href="/">
             <a>
-              <img src="/logo-dark.png" alt="Picture of the author" />
+              <Image
+                src="/logo-dark.png"
+                alt="Picture of the author"
+                layout="fixed"
+                height={50}
+                width={180}
+              />
             </a>
           </Link>
         </div>
