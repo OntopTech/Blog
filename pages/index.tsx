@@ -1,28 +1,11 @@
 import type { NextPage } from 'next'
+import { ContainerCards } from '../components/molecules/containerCards'
 import { Layout } from '../components/organisms/Layout'
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
-      <h1>Hello world</h1>
+      <ContainerCards />
     </Layout>
   )
 }

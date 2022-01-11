@@ -1,6 +1,5 @@
 .navbar {
-  background-color: #ffffff;
-  padding: 15px 15px;
+  padding: 5px;
 }
 
 .navbar-scroll {
@@ -10,7 +9,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.navbar .logo img {
+.navbar .logo image {
   max-height: 40px;
 }
 

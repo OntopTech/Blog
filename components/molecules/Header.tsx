@@ -13,17 +13,19 @@ import Image from 'next/image'
 
 export const Header = () => {
   return (
-    <div className={`${header.navbar} navbar navbar-expand-lg`}>
+    <div
+      className={`${header.navbar} navbar navbar-expand-lg navbar-light bg-light`}
+    >
       <div className="container-fluid">
         <div className={header.logo}>
           <Link href="/">
             <a>
               <Image
-                src="/logo-dark.png"
+                src="/images/ontop.png"
                 alt="Picture of the author"
-                layout="fixed"
-                height={50}
-                width={180}
+                height="50"
+                width="150"
+                className={header.logo_white}
               />
             </a>
           </Link>
