@@ -77,7 +77,7 @@
   border-radius: 20px;
 }
 
-.widgetLatestPosts .lastPost .image Image {
+.widgetLatestPosts .lastPost Image {
   border-radius: 20px;
   width: 90px;
   height: 90px;
@@ -85,7 +85,7 @@
   transition: all 0.9s ease-in-out;
 }
 
-.widgetLatestPosts .lastPost .image Image:hover {
+.widgetLatestPosts .lastPost Image:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -93,7 +93,7 @@
 .widgetLatestPosts .lastPost .nb {
   position: absolute;
   content: '';
-  left: -5px;
+  left: -30px;
   top: -5px;
   width: 25px;
   height: 25px;
