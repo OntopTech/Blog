@@ -60,10 +60,15 @@
   margin-bottom: 10px;
 }
 
+.widgetLatestPosts {
+  padding-left: 0 !important;
+}
+
 .widgetLatestPosts .lastPost {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -77,7 +82,7 @@
   border-radius: 20px;
 }
 
-.widgetLatestPosts .lastPost Image {
+.widgetLatestPosts .lastPost img {
   border-radius: 20px;
   width: 90px;
   height: 90px;
@@ -85,7 +90,7 @@
   transition: all 0.9s ease-in-out;
 }
 
-.widgetLatestPosts .lastPost Image:hover {
+.widgetLatestPosts .lastPost img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -93,7 +98,7 @@
 .widgetLatestPosts .lastPost .nb {
   position: absolute;
   content: '';
-  left: -30px;
+  left: -5px;
   top: -5px;
   width: 25px;
   height: 25px;
