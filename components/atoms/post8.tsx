@@ -7,7 +7,7 @@ export const Post8 = () => {
         <div className={styles.card}>
             <div className={styles.postCard}>
                 <div className={styles.postCardImage}>
-                    <Image src="/images/chavo.jpg" alt="" width={400} height={500} />
+                    <Image src="/images/christmas.jpg" alt="" width={400} height={500} />
                 </div>
                 <div className={styles.postCardContent}>
                     <a href="blog-grid.html" className={styles.categorie}> Livestyle</a>
