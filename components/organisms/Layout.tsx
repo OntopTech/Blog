@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { ReactNode } from 'react'
 import { Header } from '../molecules/Header'
 import { Categorie } from '../molecules/Categorie'
+import { Footer } from '../molecules/Footer'
+import { NewsLettre } from '../molecules/NewsLettre'
 
 export const Layout = (props: { children: ReactNode }) => {
   return (
@@ -11,10 +13,9 @@ export const Layout = (props: { children: ReactNode }) => {
       </Head>
       <Header />
       <Categorie />
-      <section className="container-fluid">
-        <main>{props.children}</main>
-      </section>
-      <footer>Abajo</footer>
+      <main>{props.children}</main>
+      <NewsLettre />
+      <Footer />
     </>
   )
 }

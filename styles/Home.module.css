@@ -554,12 +554,12 @@
   background-color: #ffffff;
 }
 
-.newslettre-width {
+.newslettre_width {
   width: 600px;
   margin: auto;
 }
 
-.newslettre-form {
+.newslettre_form {
   margin: auto;
   margin-bottom: 50px;
   width: 100%;
@@ -568,7 +568,7 @@
   border-radius: 20px;
 }
 
-.newslettre-form .form-flex {
+.newslettre_form .form_flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -580,12 +580,12 @@
   justify-content: center;
 }
 
-.newslettre-form .form-group {
+.newslettre_form .form_group {
   margin-bottom: 0;
   width: 100%;
 }
 
-.newslettre-form .form-control {
+.newslettre_form .form_control {
   height: 45px;
   background-color: #f9f9ff;
   border: 0px;
@@ -599,7 +599,7 @@
   border: 1px solid #eee;
 }
 
-.newslettre-form .form-control:hover {
+.newslettre_form .form_control:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
@@ -608,7 +608,7 @@
   border: 1px solid #eee;
 }
 
-.newslettre-form .submit-btn {
+.newslettre_form .submit_btn {
   background-color: #f67280;
   width: 150px;
   height: 45px;
@@ -621,46 +621,46 @@
   transition: all 0.7s ease-in-out;
 }
 
-.newslettre-form .submit-btn:hover {
+.newslettre_form .submit_btn:hover {
   background-color: #f67280;
   border: 1px solid #f67280;
 }
 
-.newslettre-info h5 {
+.newslettre_info h5 {
   margin-bottom: 10px;
   color: #152035;
 }
 
-.newslettre-info p {
+.newslettre_info p {
   margin-bottom: 30px;
   font-size: 14px;
   color: #506172;
 }
 
-.newslettre .social-icones li {
+.newslettre .social_icones li {
   margin-right: 20px;
   font-weight: 500;
 }
 
-.newslettre .social-icones li a {
+.newslettre .social_icones li a {
   margin-right: 0px;
   color: #506172;
 }
 
-.newslettre .social-icones li a:hover {
+.newslettre .social_icones li a:hover {
   color: #f67280 !important;
 }
 
-.newslettre .social-icones li a:hover i {
+.newslettre .social_icones li a:hover i {
   color: #f67280;
 }
 
-.newslettre .social-icones li a i {
+.newslettre .social_icones li a i {
   margin-right: 8px;
   color: #506172;
 }
 
-.newslettre .social-icones li:last-child {
+.newslettre .social_icones li:last-child {
   margin-right: 0px;
 }
 
@@ -737,18 +737,18 @@
   margin: 2px 6px !important;
 }
 
-.social-icones li a {
+.social_icones li a {
   display: block;
   text-align: center;
   margin-right: 10px;
 }
 
-.social-icones li a i {
+.social_icones li a i {
   font-size: 14px;
   color: #506172;
 }
 
-.social-icones li a i:hover {
+.social_icones li a i:hover {
   color: #f67280 !important;
 }
 
