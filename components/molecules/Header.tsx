@@ -12,7 +12,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 export const Header = () => {
   return (
-    <div className={`${header.navbar} navbar navbar-expand-lg fixed-top`}>
+    <div className={`${header.navbar} navbar navbar-expand-lg`}>
       <div className="container-fluid">
         <div className={header.logo}>
           <Link href="/">
