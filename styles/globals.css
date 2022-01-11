@@ -79,16 +79,16 @@ a:focus {
   text-decoration: none;
 }
 
-img {
+Image {
   max-width: 100%;
   height: auto;
 }
 
-ul {
+.ul {
   margin-bottom: 0;
 }
 
-.list-inline li {
+.list-inline .li {
   display: inline-block;
 }
 
