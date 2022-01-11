@@ -184,13 +184,13 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08), 0 0 0 transparent;
 }
 
-.postCardImage Image {
+.postCardImage img {
   border-radius: 20px;
   -webkit-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out;
 }
 
-.postCardImage Image:hover {
+.postCardImage img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -225,7 +225,7 @@
   align-items: center;
 }
 
-.postCardInfo Image {
+.postCardInfo img {
   width: 40px !important;
   height: 40px;
   border-radius: 50%;

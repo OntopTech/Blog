@@ -9,7 +9,7 @@ export const Post1 = () => {
       <div className={styles.postCard}>
         <div className={styles.postCardImage}>
           <a href="post-default.html">
-            <Image src="/images/chavo.jpg" alt="" width={400} height={500} />
+            <Image src="/images/postGirly.jpg" alt="" width={400} height={500} />
           </a>
         </div>
         <div className={styles.postCardContent}>
