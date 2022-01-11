@@ -1,14 +1,29 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import RecentPosts from '../components/atoms/recentPosts'
+import { Layout } from '../components/organisms/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <RecentPosts />
-    </div>
+    <Layout>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+      <h1>Hello world</h1>
+    </Layout>
   )
 }
 
