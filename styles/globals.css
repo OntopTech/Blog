@@ -88,7 +88,7 @@ Image {
   margin-bottom: 0;
 }
 
-.list-inline .li {
+.list-inline li {
   display: inline-block;
 }
 
