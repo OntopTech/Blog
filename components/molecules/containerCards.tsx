@@ -2,6 +2,7 @@ import { SubContentCard } from '../organisms/subContentCard'
 import styles from '../../styles/Home.module.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import RecentPosts from '../atoms/recentPosts'
+import { Categories } from '../atoms/categories'
 
 export const ContainerCards = () => {
   return (
@@ -16,6 +17,7 @@ export const ContainerCards = () => {
                 <SubContentCard />
               </Col>
               <RecentPosts />
+              <Categories />
             </Row>
           </div>
         </Container>
