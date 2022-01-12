@@ -103,7 +103,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #1c9ebe;
+  background-color: #35a7df;
   text-align: center;
   color: #ffffff;
   font-size: 13px;
@@ -126,7 +126,7 @@
 }
 
 .widgetLatestPosts .lastPost .content a:hover {
-  color: #1c9ebe !important;
+  color: #35a7df !important;
 }
 
 .widgetLatestPosts .lastPost .content small {
@@ -148,7 +148,7 @@
 }
 
 .widgetLatestPosts .lastPost .content small span {
-  color: #1c9ebe;
+  color: #35a7df;
   margin-right: 5px;
   direction: ltr;
 }
@@ -173,7 +173,7 @@
 }
 
 .widgetCategories li a:hover {
-  color: #1c9ebe;
+  color: #35a7df;
 }
 
 .widgetCategories li span {
@@ -335,7 +335,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #1c9ebe;
+  background-color: #35a7df;
   text-align: center;
   color: #ffffff;
   font-size: 13px;
@@ -362,7 +362,7 @@
 
 .widget-next-post .small-post .content a:hover,
 .widget-previous-post .small-post .content a:hover {
-  color: #1c9ebe !important;
+  color: #35a7df !important;
 }
 
 .widget-next-post .small-post .content small,
@@ -387,7 +387,7 @@
 
 .widget-next-post .small-post .content small span,
 .widget-previous-post .small-post .content small span {
-  color: #1c9ebe;
+  color: #35a7df;
   margin-right: 5px;
   direction: ltr;
 }
