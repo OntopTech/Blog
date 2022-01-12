@@ -1,5 +1,5 @@
 .categorie {
-  background-color: #f67280;
+  background-color: #1c9ebe;
   color: #ffffff;
   padding: 2px 15px;
   display: inline-block;
@@ -24,7 +24,7 @@
 }
 
 .categorie_title small a:hover {
-  color: #f67280;
+  color: #1c9ebe;
 }
 
 .categorie_title h3 {
@@ -32,7 +32,7 @@
 }
 
 .categorie_title h3 span {
-  color: #f67280;
+  color: #1c9ebe;
 }
 
 .categorie_title p {
