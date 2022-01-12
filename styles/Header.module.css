@@ -38,12 +38,12 @@
 }
 
 .navbar .nav_item .nav_link i {
-  color: #f67280;
+  color: #1c9ebe;
 }
 
 .navbar .nav_item .nav_link.active,
 .navbar .nav_item .nav_link:hover {
-  color: #f67280 !important;
+  color: #1c9ebe !important;
   background-color: transparent;
 }
 
@@ -81,7 +81,7 @@
 .navbar .nav_item .dropdown_menu .dropdown_item:hover,
 .navbar .nav_item .dropdown_menu .dropdown_item.active {
   background-color: transparent;
-  color: #f67280 !important;
+  color: #1c9ebe !important;
 }
 
 .navbar .nav_item .dropdown_menu li:last-child .dropdown_item {
@@ -89,7 +89,7 @@
 }
 
 .navbar .nav_item:hover .nav_link {
-  color: #f67280;
+  color: #1c9ebe;
 }
 
 .navbar-toggler {
@@ -134,7 +134,7 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #f67280;
+  background-color: #1c9ebe;
   text-align: center;
   display: block;
   cursor: pointer;
@@ -153,7 +153,7 @@
 }
 
 .navbar_right .search_icon:hover {
-  background-color: #f67280;
+  background-color: #1c9ebe;
 }
 
 .list_inline li {
