@@ -10,18 +10,17 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
+import { Nav, Navbar } from 'react-bootstrap'
 
 export const Header = () => {
   return (
-    <div
-      className={`${header.navbar} navbar navbar-expand-lg navbar-light bg-light fixed-top`}
-    >
+    <Navbar expand="lg" fixed="top" className={`${header.navbar} navbar`}>
       <div className="container-fluid">
         <div className={header.logo}>
           <Link href="/">
             <a>
               <Image
-                src="/images/ontop.png"
+                src="/images/OnTop-sinSlogan.png"
                 alt="Picture of the author"
                 height="50"
                 width="150"
@@ -30,11 +29,12 @@ export const Header = () => {
             </a>
           </Link>
         </div>
-        <div
-          className="justify-content-center flex-grow-1 pe-3 collapse navbar-collapse"
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse
+          className="justify-content-center flex-grow-1 pe-3"
           id="main_nav"
         >
-          <ul className=" navbar-nav ml-auto mr-auto">
+          <Nav className=" navbar-nav ml-auto mr-auto">
             <li className={`${header.nav_item} nav-item dropdown`}>
               <Link href="/">
                 <a
@@ -73,8 +73,8 @@ export const Header = () => {
                 </li>
               </ul>
             </li>
-          </ul>
-        </div>
+          </Nav>
+        </Navbar.Collapse>
         <div
           className={`${header.navbar_right} navbar-right ml-auto d-flex flex-row bd-highlight`}
         >
@@ -84,7 +84,10 @@ export const Header = () => {
                 <Link href="/">
                   <a>
                     <i>
-                      <FontAwesomeIcon icon={faFacebook} />
+                      <FontAwesomeIcon
+                        icon={faFacebook}
+                        className={header.icon}
+                      />
                     </i>
                   </a>
                 </Link>
@@ -93,7 +96,10 @@ export const Header = () => {
                 <Link href="/">
                   <a>
                     <i>
-                      <FontAwesomeIcon icon={faInstagramSquare} />
+                      <FontAwesomeIcon
+                        icon={faInstagramSquare}
+                        className={header.icon}
+                      />
                     </i>
                   </a>
                 </Link>
@@ -102,7 +108,10 @@ export const Header = () => {
                 <Link href="/">
                   <a>
                     <i>
-                      <FontAwesomeIcon icon={faTwitter} />
+                      <FontAwesomeIcon
+                        icon={faTwitter}
+                        className={header.icon}
+                      />
                     </i>
                   </a>
                 </Link>
@@ -111,20 +120,23 @@ export const Header = () => {
                 <Link href="/">
                   <a>
                     <i>
-                      <FontAwesomeIcon icon={faYoutube} />
+                      <FontAwesomeIcon
+                        icon={faYoutube}
+                        className={header.icon}
+                      />
                     </i>
                   </a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className={header.search_icon}>
+          <div className={`${header.search_icon} search-icon`}>
             <i>
               <FontAwesomeIcon icon={faSearch} />
             </i>
           </div>
         </div>
       </div>
-    </div>
+    </Navbar>
   )
 }
