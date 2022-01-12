@@ -7,12 +7,12 @@ export const ContainerCards = () => {
   return (
     <div className="containerCards">
       <section
-        className={`${styles.masonryLayout} ${styles.col2Layout} ${styles.mt30}`}
+        className={`${styles.masonryLayout} masonry-layout ${styles.col2Layout} col2-layout ${styles.mt30}`}
       >
         <Container>
-          <div className={styles.containerFluid}>
+          <div className={`${styles.containerFluid} container-fluid`}>
             <Row>
-              <Col lg="8" className={styles.mt10}>
+              <Col lg="8" className={`${styles.mt10} mt--10`}>
                 <SubContentCard />
               </Col>
               <RecentPosts />
