@@ -7,13 +7,14 @@ import {
   faTwitter,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
-import { Container } from 'react-bootstrap'
 
 export const NewsLettre = () => {
   return (
     <section className={`${Helpers.newslettre} newslettre`}>
-      <Container className="container-fluid">
-        <div className={`${Helpers.newslettre_width} text-center`}>
+      <div className="container-fluid">
+        <div
+          className={`${Helpers.newslettre_width} newslettre-width text-center`}
+        >
           <div className={Helpers.newsletre_info}>
             <h5>Subscribe to our Newslatter</h5>
             <p>
@@ -41,7 +42,7 @@ export const NewsLettre = () => {
               </button>
             </div>
           </form>
-          <div className={Helpers.social_icones}>
+          <div className={`${Helpers.social_icones} social-icones`}>
             <ul className="list-inline">
               <li>
                 <Link href="/">
@@ -85,7 +86,7 @@ export const NewsLettre = () => {
             </ul>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   )
 }
