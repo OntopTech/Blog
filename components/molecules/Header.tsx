@@ -14,7 +14,7 @@ import Image from 'next/image'
 export const Header = () => {
   return (
     <div
-      className={`${header.navbar} navbar navbar-expand-lg navbar-light bg-light`}
+      className={`${header.navbar} navbar navbar-expand-lg navbar-light bg-light fixed-top`}
     >
       <div className="container-fluid">
         <div className={header.logo}>

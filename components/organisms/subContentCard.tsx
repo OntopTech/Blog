@@ -11,7 +11,7 @@ import styles from '../../styles/Home.module.css'
 export const SubContentCard = () => {
 
     return (
-        <div className={styles.cardColumns}>
+        <div className={`${styles.cardColumns} card-columns`}>
             <Post1 />
             <Post2 />
             <Post3 />
