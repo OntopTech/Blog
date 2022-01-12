@@ -1,14 +1,12 @@
 import type { NextPage } from 'next'
 import { ContainerCards } from '../components/molecules/containerCards'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { Layout } from '../components/organisms/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Layout>
       <ContainerCards />
-    </div>
+    </Layout>
   )
 }
 

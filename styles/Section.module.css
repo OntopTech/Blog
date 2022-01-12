@@ -1,0 +1,32 @@
+/* ------------------------------
+		 Section
+------------------------------ */
+.section {
+  margin-top: 65px;
+  background-color: #35a7df;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.sectionTitle h5 {
+  text-transform: capitalize;
+  position: relative;
+}
+
+.sectionTitle h5:after {
+  background-color: #35a7df;
+  display: block;
+  position: absolute;
+  content: '';
+  left: auto;
+  top: -5px;
+  width: 30px;
+  height: 2px;
+}
+
+.sectionTitle p {
+  margin-bottom: 0;
+}
