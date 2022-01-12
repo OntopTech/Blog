@@ -86,6 +86,7 @@ img {
 
 ul {
   margin-bottom: 0;
+  padding-left: 0 !important;
 }
 
 .list-inline li {
@@ -161,8 +162,8 @@ ul {
 @media screen and (max-width: 768px) {
   .masonry-layout .card-columns,
   .col2-layout .card-columns {
-    -webkit-column-count: 1;
-    column-count: 1;
+    -webkit-column-count: 1 !important;
+    column-count: 1 !important;
   }
   .search-form {
     width: 100%;

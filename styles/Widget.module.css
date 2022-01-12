@@ -161,22 +161,22 @@
   margin-bottom: 0;
 }
 
-.widget-categories li {
+.widgetCategories li {
   background-color: #f9f9ff;
   padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-.widget-categories li a {
+.widgetCategories li a {
   font-weight: 700;
 }
 
-.widget-categories li a:hover {
+.widgetCategories li a:hover {
   color: #f67280;
 }
 
-.widget-categories li span {
+.widgetCategories li span {
   float: right;
   color: #506172;
   padding: 2px 10px;
@@ -185,7 +185,7 @@
   font-weight: 700;
 }
 
-.widget-categories li:last-child {
+.widgetCategories li:last-child {
   margin-bottom: 0px;
 }
 

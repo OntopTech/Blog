@@ -6,22 +6,20 @@ import { Categories } from '../atoms/categories'
 
 export const ContainerCards = () => {
   return (
-    <div className="containerCards">
-      <section
-        className={`${styles.masonryLayout} ${styles.col2Layout} ${styles.mt30}`}
-      >
-        <Container>
-          <div className={styles.containerFluid}>
-            <Row>
-              <Col lg="8" className={styles.mt10}>
-                <SubContentCard />
-              </Col>
-              <RecentPosts />
-              <Categories />
-            </Row>
-          </div>
-        </Container>
-      </section>
-    </div>
+    <section
+      className={`${styles.masonryLayout} masonry-layout ${styles.col2Layout} col2-layout ${styles.mt30}`}
+    >
+      <div className="container-fluid">
+        <Row>
+          <Col lg="8" className={styles.mt10}>
+            <SubContentCard />
+          </Col>
+          <Col lg="4" className="max-width">
+            <RecentPosts />
+            <Categories />
+          </Col>
+        </Row>
+      </div>
+    </section>
   )
 }
