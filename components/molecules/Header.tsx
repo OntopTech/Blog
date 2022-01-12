@@ -76,7 +76,7 @@ export const Header = () => {
           </ul>
         </div>
         <div
-          className={`${header.navbar_right} ml-auto d-flex flex-row bd-highlight`}
+          className={`${header.navbar_right} navbar-right ml-auto d-flex flex-row bd-highlight`}
         >
           <div className={`${header.social_icones} social-icones`}>
             <ul className="list-inline">
