@@ -134,13 +134,13 @@ ul {
     -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: 15px;
-    background-color: #1c9ebe;
+    background-color: #35a7df;
     -webkit-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
   }
   .navbar .nav-item .dropdown-menu .dropdown-item:hover,
   .navbar .nav-item .dropdown-menu .dropdown-item.active {
-    color: #1c9ebe;
+    color: #35a7df;
   }
   .navbar .nav-item .nav-link {
     margin-bottom: 15px;

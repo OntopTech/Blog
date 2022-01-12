@@ -1,6 +1,6 @@
 .navbar {
   padding: 13px;
-  background-color: #1c9ebe;
+  background-color: #35a7df;
 }
 
 .navbar-scroll {
@@ -29,7 +29,7 @@
 
 .navbar .nav_item .nav_link {
   font-weight: 700;
-  color: #1c9ebe;
+  color: #35a7df;
   font-size: 16px;
   padding: 0px 40px 0px 0px;
   display: inline-block;
@@ -39,7 +39,7 @@
 }
 
 .navbar .nav_item .nav_link i {
-  color: #1c9ebe;
+  color: #35a7df;
 }
 
 .navbar .nav_item .nav_link.active,
@@ -82,7 +82,7 @@
 .navbar .nav_item .dropdown_menu .dropdown_item:hover,
 .navbar .nav_item .dropdown_menu .dropdown_item.active {
   background-color: transparent;
-  color: #1c9ebe !important;
+  color: #35a7df !important;
 }
 
 .navbar .nav_item .dropdown_menu li:last-child .dropdown_item {
@@ -149,7 +149,7 @@
 
 .navbar_right .search_icon i {
   line-height: 35px;
-  color: #1c9ebe;
+  color: #35a7df;
   font-size: 13px;
   font-weight: 700;
   display: block;
