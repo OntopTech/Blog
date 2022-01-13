@@ -1,4 +1,3 @@
-import widget from '../../styles/Widget.module.css'
 import section from '../../styles/Section.module.css'
 
 export const SubRecentPost = () => {
