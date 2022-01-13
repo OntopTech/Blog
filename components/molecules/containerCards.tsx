@@ -5,6 +5,7 @@ import { ShellRecentPost } from '../organisms/shellRecentPost'
 import { Categories } from '../atoms/categories'
 import { Instagram } from '../atoms/instagram'
 import { Tags } from '../atoms/Tags'
+import { Pagination } from '../atoms/pagination'
 
 export const ContainerCards = () => {
   return (
@@ -15,6 +16,7 @@ export const ContainerCards = () => {
         <Row>
           <Col lg="8" className={styles.mt10}>
             <SubContentCard />
+            <Pagination />
           </Col>
           <Col lg="4" className="max-width">
             <ShellRecentPost />
