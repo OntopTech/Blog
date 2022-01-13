@@ -3,6 +3,8 @@ import styles from '../../styles/Home.module.css'
 import { Col, Row } from 'react-bootstrap'
 import RecentPosts from '../atoms/recentPosts'
 import { Categories } from '../atoms/categories'
+import { Instagram } from '../atoms/instagram'
+import { Tags } from '../atoms/Tags'
 
 export const ContainerCards = () => {
   return (
@@ -17,6 +19,8 @@ export const ContainerCards = () => {
           <Col lg="4" className="max-width">
             <RecentPosts />
             <Categories />
+            <Instagram />
+            <Tags />
           </Col>
         </Row>
       </div>

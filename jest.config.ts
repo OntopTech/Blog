@@ -1,10 +1,10 @@
-import type {Config} from '@jest/types';
+import type { Config } from '@jest/types'
 
 export default async (): Promise<Config.InitialOptions> => {
   return {
     verbose: true,
-  };
-};
+  }
+}
 
 module.exports = {
   collectCoverageFrom: [
@@ -27,7 +27,7 @@ module.exports = {
     // Handle module aliases
     '^@/components/(.*)$': '<rootDir>/components/$1',
   },
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
   transform: {
     // Use babel-jest to transpile tests with the next/babel preset
@@ -39,4 +39,3 @@ module.exports = {
     '^.+\\.module\\.(css|sass|scss)$',
   ],
 }
-
