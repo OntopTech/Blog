@@ -1,33 +1,30 @@
-/**
-  @jest-environment jsdom
- */
 import { render, screen } from '@testing-library/react'
-import { Post1 } from '../components/atoms/post1'
+import { Post5 } from '../components/atoms/post5'
 
-describe('Post1', () => {
-  it('Post 1', () => {
-    render(<Post1 />)
+describe('Post5', () => {
+  it('Post 5', () => {
+    render(<Post5 />)
   })
 
-  it('Post1 heading', () => {
-    render(<Post1 />)
+  it('Post5 heading', () => {
+    render(<Post5 />)
     const heading = screen.getByRole('heading')
     expect(heading).toBeInTheDocument()
   })
-  it('Post1 list', () => {
-    render(<Post1 />)
+  it('Post5 list', () => {
+    render(<Post5 />)
     const list = screen.getByRole('list')
     expect(list).toBeInTheDocument()
   })
 
-  it('Post1 imgs', () => {
-    render(<Post1 />)
+  it('Post5 imgs', () => {
+    render(<Post5 />)
     const img = screen.getAllByRole('img')
     expect(img)
   })
 
-  it('Post1 not menu', () => {
-    render(<Post1 />)
+  it('Post5 not menu', () => {
+    render(<Post5 />)
     const menu = screen.queryByRole('menu')
     expect(menu).not.toBeInTheDocument()
   })
