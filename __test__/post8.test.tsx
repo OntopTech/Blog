@@ -5,7 +5,7 @@ import { render, screen } from '@testing-library/react'
 import { Post8 } from '../components/atoms/post8'
 
 describe('Post8', () => {
-  it('Post 3', () => {
+  it('Post 8', () => {
     render(<Post8 />)
   })
 
