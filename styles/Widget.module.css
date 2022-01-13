@@ -402,8 +402,8 @@
   margin-bottom: 0;
 }
 
-.widget-tags ul li {
-  background-color: #f9f9ff;
+.widgetTags ul li {
+  background-color: #eaf6ff;
   padding: 4px 11px;
   margin-bottom: 5px;
   margin-right: 2px;
@@ -414,6 +414,6 @@
   font-weight: 700;
 }
 
-.widget-tags ul li a:hover {
+.widgetTags ul li a:hover {
   color: #506172;
 }

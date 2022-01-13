@@ -4,6 +4,7 @@ import { Col, Row } from 'react-bootstrap'
 import RecentPosts from '../atoms/recentPosts'
 import { Categories } from '../atoms/categories'
 import { Instagram } from '../atoms/instagram'
+import { Tags } from '../atoms/Tags'
 
 export const ContainerCards = () => {
   return (
@@ -19,6 +20,7 @@ export const ContainerCards = () => {
             <RecentPosts />
             <Categories />
             <Instagram />
+            <Tags />
           </Col>
         </Row>
       </div>
