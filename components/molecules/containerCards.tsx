@@ -1,7 +1,7 @@
 import { SubContentCard } from '../organisms/subContentCard'
 import styles from '../../styles/Home.module.css'
 import { Col, Row } from 'react-bootstrap'
-import RecentPosts from '../atoms/recentPosts'
+import { ShellRecentPost } from '../organisms/shellRecentPost'
 import { Categories } from '../atoms/categories'
 import { Instagram } from '../atoms/instagram'
 import { Tags } from '../atoms/Tags'
@@ -17,7 +17,7 @@ export const ContainerCards = () => {
             <SubContentCard />
           </Col>
           <Col lg="4" className="max-width">
-            <RecentPosts />
+            <ShellRecentPost />
             <Categories />
             <Instagram />
             <Tags />
