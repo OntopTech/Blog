@@ -189,7 +189,7 @@
   margin-bottom: 0px;
 }
 
-.widget-instagram {
+.widgetInstagram {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
@@ -199,18 +199,18 @@
   grid-gap: 10px;
 }
 
-.widget-instagram li {
+.widgetInstagram li {
   overflow: hidden;
   border-radius: 5px;
 }
 
-.widget-instagram li Image {
+.widgetInstagram li Image {
   border-radius: 5px;
   -webkit-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out;
 }
 
-.widget-instagram li Image:hover {
+.widgetInstagram li Image:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
