@@ -3,7 +3,7 @@
 ------------------------------ */
 .section {
   margin-top: 65px;
-  background-color: #1c9ebe;
+  background-color: #35a7df;
 }
 
 .sectionTitle {
@@ -17,7 +17,7 @@
 }
 
 .sectionTitle h5:after {
-  background-color: #1c9ebe;
+  background-color: #35a7df;
   display: block;
   position: absolute;
   content: '';
