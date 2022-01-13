@@ -6,7 +6,7 @@ import { faClock } from '@fortawesome/free-solid-svg-icons'
 export const RecentPostFour = () => {
 
     return (
-        <>
+        <div>
             <div className={widget.image}>
                 <a href="post-default.html">
                     <Image src="/images/4.jpg" alt="..." layout="fill" />
@@ -26,6 +26,6 @@ export const RecentPostFour = () => {
                     January 15, 2021
                 </small>
             </div>
-        </>
+        </div>
     );
 }
