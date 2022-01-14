@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import home from '../../styles/Home.module.css'
 export const Pagination = () => {
   return (
-    <div className={`${home.pagination} ${home.mt30}`}>
+    <div className={`${home.pagination} ${home.mt30} pagination`}>
       <ul className="list-inline">
         <li className="active">
           <a href="#">1</a>
