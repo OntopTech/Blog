@@ -1,5 +1,5 @@
 import header from '../../styles/Header.module.css'
-import { Nav, Navbar } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 import { HeaderLogo } from '../atoms/headerLogo';
 import { NavHeader } from '../atoms/navHeader';
 import { HeaderSocialIcon } from '../atoms/headerSocialIcon';
