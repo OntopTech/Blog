@@ -2,10 +2,10 @@ import { SubContentCard } from '../molecules/subContentCard'
 import styles from '../../styles/Home.module.css'
 import { Col, Row } from 'react-bootstrap'
 import { ShellRecentPost } from '../molecules/shellRecentPost'
-import { Categories } from '../atoms/categories'
-import { Instagram } from '../atoms/instagram'
-import { Tags } from '../atoms/Tags'
-import { Pagination } from '../atoms/pagination'
+import { Categories } from '../molecules/categories'
+import { Instagram } from '../molecules/instagram'
+import { Tags } from '../molecules/Tags'
+import { Pagination } from '../molecules/pagination'
 
 export const ContainerBlogs = () => {
   return (
