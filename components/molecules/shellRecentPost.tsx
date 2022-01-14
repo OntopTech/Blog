@@ -1,5 +1,5 @@
 import widget from '../../styles/Widget.module.css'
-import { SubRecentPost } from './subRecentPost'
+import { SubRecentPost } from '../atoms/subRecentPost'
 import { RecentPostOne } from '../atoms/recentPostOne'
 import { RecentPostTwo } from '../atoms/recentPostTwo'
 import { RecentPostThree } from '../atoms/recentPostThree'
