@@ -6,7 +6,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 export const Categorie = () => {
   return (
-    <section className={Categories.categorie_section}>
+    <section className={`${Categories.categorie_section} categorie-section `}>
       <div className="container-fluid">
         <Row>
           <Col>
