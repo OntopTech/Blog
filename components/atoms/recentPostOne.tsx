@@ -2,22 +2,23 @@ import Image from "next/image";
 import widget from '../../styles/Widget.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
+import Link from "next/link";
 
 export const RecentPostOne = () => {
 
     return (
         <>
             <div className={widget.image}>
-                <a href="post-default.html">
+                <Link href="/">
                     <Image src="/images/1.jpg" alt="..." layout="fill" />
-                </a>
+                </Link>
             </div>
             <div className={widget.nb}>1</div>
             <div className={widget.content}>
                 <p>
-                    <a href="post-default.html">
+                    <Link href="/">
                         5 Things I Wish I Knew Before Traveling to Malaysia
-                    </a>
+                    </Link>
                 </p>
                 <small>
                     <span className={widget.iconClockAlt}>
