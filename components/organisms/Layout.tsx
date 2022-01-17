@@ -4,6 +4,7 @@ import { Categorie } from '../molecules/Categorie'
 import { Footer } from '../molecules/Footer'
 import { NewsLettre } from '../molecules/NewsLettre'
 import { HeaderContainer } from '../molecules/headerContainer'
+import { ContentNewsLettre } from '../molecules/ContentNewsLettre'
 
 export const Layout = (props: { children: ReactNode }) => {
   return (
@@ -14,7 +15,7 @@ export const Layout = (props: { children: ReactNode }) => {
       <HeaderContainer />
       <Categorie />
       <main>{props.children}</main>
-      <NewsLettre />
+      <ContentNewsLettre />
       <Footer />
     </>
   )

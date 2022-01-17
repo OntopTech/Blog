@@ -1,3 +1,7 @@
+/**
+  @jest-environment jsdom
+ */
+
 import { render, screen } from '@testing-library/react'
 import { Post5 } from '../components/atoms/post5'
 
