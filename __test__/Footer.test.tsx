@@ -12,19 +12,18 @@ describe('Footer', () => {
 
   it('Footer className main', () => {
     const { container } = render(<Footer />)
-    expect(container.firstChild).toHaveClass('Footer-section')
+    expect(container.firstChild).toHaveClass('footer')
   })
 
   it('Footer link', () => {
     render(<Footer />)
-    const link = screen.getByRole('link')
-    expect(link).toBeInTheDocument()
+    screen.queryAllByRole('link')
   })
 
   it('Footer Heading', () => {
     render(<Footer />)
-    const heading = screen.getByRole('heading')
-    expect(heading).toBeInTheDocument()
+    const heading = screen.queryByRole('heading')
+    expect(heading).not.toBeInTheDocument()
   })
 
   it('Categori grid', () => {

@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import { ReactNode } from 'react'
-import { Header } from '../molecules/Header'
 import { Categorie } from '../molecules/Categorie'
 import { Footer } from '../molecules/Footer'
-import { NewsLettre } from '../molecules/NewsLettre'
+import { HeaderContainer } from '../molecules/headerContainer'
+import { ContentNewsLettre } from '../molecules/ContentNewsLettre'
 
 export const Layout = (props: { children: ReactNode }) => {
   return (
@@ -11,10 +11,10 @@ export const Layout = (props: { children: ReactNode }) => {
       <Head>
         <title>Blog</title>
       </Head>
-      <Header />
+      <HeaderContainer />
       <Categorie />
       <main>{props.children}</main>
-      <NewsLettre />
+      <ContentNewsLettre />
       <Footer />
     </>
   )
