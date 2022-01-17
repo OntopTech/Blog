@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import { ContainerCards } from '../components/molecules/containerCards'
+import { ContainerBlogs } from '../components/organisms/containerBlogs'
 import { Layout } from '../components/organisms/Layout'
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <ContainerCards />
+      <ContainerBlogs />
     </Layout>
   )
 }
