@@ -9,7 +9,7 @@ export const Layout = (props: { children: ReactNode }) => {
   return (
     <>
       <Head>
-        <title>Blog</title>
+        <title>Blog Ontop</title>
       </Head>
       <Header />
       <Categorie />
