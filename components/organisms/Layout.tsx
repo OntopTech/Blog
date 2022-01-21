@@ -1,20 +1,28 @@
 import Head from 'next/head'
-import { ReactNode } from 'react'
-import { Categorie } from '../molecules/Categorie'
+import { ReactNode, useState } from 'react'
 import { Footer } from '../molecules/Footer'
 import { HeaderContainer } from '../molecules/headerContainer'
 import { ContentNewsLettre } from '../molecules/ContentNewsLettre'
+import validator from 'validator';
+import { SendBludBird } from '../../utils/SendEmail'
+
 
 export const Layout = (props: { children: ReactNode }) => {
+  const [email, setEmail] = useState("");
+  const Onsubmit = async () => {
+    event?.preventDefault
+    if (validator.isEmail(email)) {
+      await SendBludBird(email)
+    }
+  }
   return (
     <>
       <Head>
         <title>Blog</title>
       </Head>
       <HeaderContainer />
-      <Categorie />
       <main>{props.children}</main>
-      <ContentNewsLettre />
+      <ContentNewsLettre onChange={Onsubmit} email={setEmail} />
       <Footer />
     </>
   )

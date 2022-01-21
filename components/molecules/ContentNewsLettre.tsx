@@ -1,8 +1,8 @@
+import { Dispatch, SetStateAction } from 'react'
 import Helpers from '../../styles/Home.module.css'
 import { NewButton } from '../atoms/Button'
-import { NewInput } from '../atoms/Input'
 import { NewsLettreSocialicones } from '../atoms/newsLettreSocialIcones'
-export const ContentNewsLettre = () => {
+export const ContentNewsLettre = (props: { onChange: any, email: Dispatch<SetStateAction<string>> }) => {
   return (
     <section className={`${Helpers.newslettre} newslettre`}>
       <div className="container-fluid">
@@ -16,15 +16,16 @@ export const ContentNewsLettre = () => {
             </p>
           </div>
           <form
-            action="#"
             className={`${Helpers.newslettre_form} newslettre-form`}
+            onSubmit={props.onChange}
           >
             <div className={`${Helpers.form_flex} form-flex`}>
               <div className={`${Helpers.form_group} form-group`}>
-                <NewInput
-                  classname={`${Helpers.form_control} form-control`}
+                <input
+                  className={`${Helpers.form_control} form-control`}
                   required={true}
                   placeholder="Your email adress"
+                  onChange={(e) => props.email(e.target.value)}
                   type="email"
                 />
               </div>

@@ -6,9 +6,12 @@ import { Categories } from '../molecules/categories'
 import { Instagram } from '../molecules/instagram'
 import { Tags } from '../molecules/Tags'
 import { Pagination } from '../molecules/pagination'
+import { Categorie } from '../molecules/Categorie'
 
 export const ContainerBlogs = () => {
   return (
+    <>
+    <Categorie />
     <section
       className={`${styles.masonryLayout} masonry-layout ${styles.col2Layout} col2-layout ${styles.mt30}`}
     >
@@ -27,5 +30,6 @@ export const ContainerBlogs = () => {
         </Row>
       </div>
     </section>
+    </>
   )
 }
