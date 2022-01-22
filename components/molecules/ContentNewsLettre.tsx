@@ -1,6 +1,6 @@
 import Helpers from '../../styles/Home.module.css'
 import { NewButton } from '../atoms/Button'
-import { NewInput } from '../atoms/Input'
+import NewInput from '../atoms/Input'
 import { NewsLettreSocialicones } from '../atoms/newsLettreSocialIcones'
 export const ContentNewsLettre = () => {
   return (
