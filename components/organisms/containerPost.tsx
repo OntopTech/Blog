@@ -5,6 +5,10 @@ import { ShellRecentPost } from '../molecules/shellRecentPost'
 import { Categories } from '../molecules/categories'
 import { Instagram } from '../molecules/instagram'
 import { Tags } from '../molecules/Tags'
+import { WidgetAuthor } from '../molecules/WidgetAuthor'
+import { PostSingle } from '../molecules/PostSingle'
+import { PaginationPost } from '../molecules/PaginationPost'
+import { WidgetComments } from '../molecules/WidgetComments'
 
 export const ContainerPost = () => {
   return (
@@ -13,9 +17,12 @@ export const ContainerPost = () => {
         <div className="container-fluid">
           <Row>
             <Col lg="8" className={Home.mb20}>
-              hello word
+              <PostSingle />
+              <PaginationPost />
+              <WidgetComments />
             </Col>
             <Col lg="4" className="max-width">
+              <WidgetAuthor />
               <ShellRecentPost />
               <Categories />
               <Instagram />

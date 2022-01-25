@@ -67,7 +67,7 @@
   margin-bottom: 60px;
 }
 
-.mb-50 {
+.mb50 {
   margin-bottom: 50px;
 }
 
@@ -304,7 +304,7 @@
   transition: all 0.9s ease-in-out;
 }
 
-.sign-form .btn-custom {
+.sign-form .btn_custom {
   width: 100%;
   text-align: center;
   margin-bottom: 8px;
@@ -664,7 +664,7 @@
   margin-right: 0px;
 }
 
-.btn-custom {
+.btn_custom {
   cursor: pointer;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -688,8 +688,8 @@
   transition: all 0.5s ease-in-out;
 }
 
-.btn-custom:hover,
-.btn-custom:focus {
+.btn_custom:hover,
+.btn_custom:focus {
   color: #ffffff;
   background-color: #35a7df;
   outline: none;
@@ -752,7 +752,7 @@
   color: #35a7df !important;
 }
 
-.social-media a {
+.social_media a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -763,40 +763,40 @@
   transition: all 0.5s ease-in-out;
 }
 
-.social-media a i {
+.social_media a i {
   font-size: 13px;
   line-height: 30px;
   color: #ffffff;
 }
 
-.social-media a:hover {
+.social_media a:hover {
   background-color: #35a7df;
 }
 
-.social-media a:hover i {
+.social_media a:hover i {
   color: #506172;
 }
 
-.color-facebook {
+.color_facebook {
   background-color: #3b5998;
 }
 
-.color-instagram {
+.color_instagram {
   background-color: #c32aa3;
 }
 
-.color-youtube {
+.color_youtube {
   background-color: #e52d27;
 }
 
-.color-twitter {
+.color_twitter {
   background-color: #1dcaff;
 }
 
-.color-dribbble {
+.color_dribbble {
   background-color: #ddd;
 }
 
-.color-pinterest {
+.color_pinterest {
   background-color: #bd081c;
 }

@@ -26,7 +26,7 @@ describe('Footer', () => {
     expect(heading).not.toBeInTheDocument()
   })
 
-  it('Categori grid', () => {
+  it('Footer grid', () => {
     render(<Footer />)
     const grid = screen.queryByRole('grid')
     expect(grid).not.toBeInTheDocument()
